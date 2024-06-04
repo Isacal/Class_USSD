@@ -40,8 +40,3 @@ app.post('/ussd', (req, res) => {
     res.set('Content-Type: text/plain');
     res.send(response);
 });
-
-
-app.listen(3000, () => {
-    console.log('Server is listening on port 3000');
-  });
